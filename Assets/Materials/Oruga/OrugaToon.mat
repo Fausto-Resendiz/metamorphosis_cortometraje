@@ -56,10 +56,10 @@ Material:
     m_Ints: []
     m_Floats:
     - _Max: 1
-    - _Min: 0.3
+    - _Min: 0.32
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Shapes: 0.49
+    - _Shapes: 0.48
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Offset: {r: 1, g: 1, b: 0, a: 0}
