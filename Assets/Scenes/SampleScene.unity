@@ -1178,7 +1178,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8719fe59ec2fb4c4b89ff467d396875e, type: 3}
       propertyPath: m_Name
-      value: buomplastic
+      value: Mariposa
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 8719fe59ec2fb4c4b89ff467d396875e, type: 3}
       propertyPath: m_IsActive
@@ -1189,13 +1189,38 @@ PrefabInstance:
     - {fileID: 65702495048144492, guid: 8719fe59ec2fb4c4b89ff467d396875e, type: 3}
     - {fileID: 7869873546869171050, guid: 8719fe59ec2fb4c4b89ff467d396875e, type: 3}
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 8719fe59ec2fb4c4b89ff467d396875e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 616481869}
   m_SourcePrefab: {fileID: 100100000, guid: 8719fe59ec2fb4c4b89ff467d396875e, type: 3}
 --- !u!1 &616481867 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 8719fe59ec2fb4c4b89ff467d396875e, type: 3}
   m_PrefabInstance: {fileID: 616481866}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &616481869
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 616481867}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 938f022d26459674b9c75f731354d816, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &644462590 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 97a5a09ab6c29c042907efc52d35a439, type: 3}
